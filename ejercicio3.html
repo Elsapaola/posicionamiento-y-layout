@@ -2,32 +2,126 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Ejercicio 4</title>
+        <title>Ejercicio 3</title>
         <style media="screen" type="text/css">
             html, body {
                 margin: 0;
                 padding: 0;
             }
             .main {
-                background-color: #B0CCAB;
-                padding: 50px;
+                margin: 20px;
             }
-            .main__paragraph {
-                position: fixed;
-                padding-left: 65px;
+            .caja_color_rojo {
+                width: 20%;
+                height: 30px;
+                background-color: red;
+            }
+            .caja_color_amarillo {
+                width: 20%;
+                height: 50px;
+                background-color: yellow;
+            }
+            .caja_color_verde {
+                width: 20%; 
+                height: 37px;
+                background-color: green;
+            }
+            .caja_color_blanco {
+                width: 20%;
+                height: 37px;
+                background-color: white;
+            }
+            .caja_color_negro {
+                width: 20%;
+                height: 37px;
+                background-color: black;
+            }
+            .caja_franja_roja {
+                width: 4%;
+                height: 111px;
+                background-color: red;
+                z-index: 1;
+                top: 150px;
+                position: absolute;
+            }
+            .caja_blanco_japon {
+                width: 20%;
+                height: 111px;
+                background-color: white;
+                border: 1px solid #e8e8e8;
+            }
+            .circulo {
+                width: 50px;
+                height: 50px;
+                background-color: red;
+                border-radius: 50px;
+                margin-left: 100px;
+                margin-top: 28px;
+            }
+            .caja_color_roja_small {
+                width: 50px;
+                height: 50px;
+                background-color: red;
+                margin-top: 5px;
+            }
+            .caja_color_roja_big {
+                width: 214px;
+                height: 50px;
+                background-color: red;
+                margin-left: 55px;
+                margin-top: -50px;
             }
         </style>
     </head>
     <body>
-        <section class="main">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-                quasi neque fugit non delectus soluta fugiat, qui? Commodi sint itaque
-                necessitatibus, quibusdam quia soluta impedit facilis architecto vel? Dolor,
-                eveniet!</p>
-            <p class="main__paragraph">Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Suscipit sed fugiat id eius soluta veritatis molestias saepe
-                porro impedit praesentium nisi recusandae harum, vitae, quos expedita nostrum
-                sequi! Autem, assumenda?</p>
-        </section>
+        <div>
+            <section class="main">
+                <div>
+                    <div class="caja_color_rojo">
+                    </div>
+                    <div class="caja_color_amarillo">
+                    </div>
+                    <div class="caja_color_rojo">
+                    </div>
+                </div>
+            </section>
+
+            <section class="main">
+                <div>
+                    <div class="caja_color_verde">
+                    </div>
+                    <div class="caja_color_blanco">
+                    </div>
+                    <div class="caja_color_negro">
+                    </div>
+                    <div class="caja_franja_roja">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section class="main">
+                <div>
+                    <div class="caja_color_roja_small">
+                    </div>
+                    <div class="caja_color_roja_small">
+                    </div>
+                    <div class="caja_color_roja_small">
+                    </div>
+                    <div class="caja_color_roja_big">
+                    </div>
+                    <div class="caja_color_roja_big">
+                    </div>
+                </div>
+            </section>
+
+            <section class="main">
+                <div>
+                    <div class="caja_blanco_japon">
+                        <div class="circulo"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
